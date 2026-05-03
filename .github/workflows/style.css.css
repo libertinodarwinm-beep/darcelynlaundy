@@ -1,0 +1,21 @@
+.hero {
+  height: 90vh;
+  background: url('https://images.unsplash.com/photo-1604335399105-a0c585fd81a1') center/cover no-repeat;
+}
+
+.service-card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: 0.3s ease;
+}
+
+.service-card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
